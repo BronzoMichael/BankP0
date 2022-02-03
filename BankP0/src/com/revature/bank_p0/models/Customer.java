@@ -26,10 +26,10 @@ public class Customer {
 		this.password = password;
 	}
 
-	public Customer(String scientistId, String firstName, String lastName, String email, String username,
+	public Customer(String customerId, String firstName, String lastName, String email, String username,
 			String password) {
 		super();
-		this.customerId = scientistId;
+		this.customerId = customerId;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
