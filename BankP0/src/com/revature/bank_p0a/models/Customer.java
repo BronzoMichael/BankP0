@@ -1,4 +1,4 @@
-package com.revature.bank_p0.models;
+package com.revature.bank_p0a.models;
 
 import java.util.Objects;
 

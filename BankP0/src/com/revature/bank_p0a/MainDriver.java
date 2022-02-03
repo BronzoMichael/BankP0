@@ -1,6 +1,7 @@
 package com.revature.bank_p0;
 
 
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
@@ -222,7 +223,4 @@ public class MainDriver {
 		
 			
 		}
-
-
-
 
