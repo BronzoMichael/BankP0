@@ -1,6 +1,7 @@
 package com.revature.bank_p0a.menus;
 
 import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 import com.revature.bank_p0a.exceptions.InvalidRequestException;
 import com.revature.bank_p0a.models.Customer;
@@ -8,6 +9,7 @@ import com.revature.bank_p0a.services.CustomerService;
 import com.revature.bank_p0a.util.MenuRouter;
 
 public class RegisterMenu extends Menu {
+	
 
 	CustomerService customerService;
 
@@ -19,11 +21,10 @@ public class RegisterMenu extends Menu {
 	@Override
 	public void render() throws Exception {
 		// TODO Auto-generated method stub
-				System.out.println("The User selected Register");
+				System.out.println("Thank you for choosing Bronzo Bank");
 
-				// Things to obtain from user: first name, last name, email,username, password
 
-				System.out.println("Please provided us with some basic information");
+				System.out.println("Please provide us with some basic information");
 				System.out.print("First Name: ");
 				String firstName = consoleReader.readLine();
 
