@@ -30,7 +30,7 @@ public class CustomerServiceTestSuite {
 	public void test_isScientistValid_returnsTrue_givenValidUser() {
 		
 		// Arrange
-		Customer validScientist = new Customer("valid","valid","valid","valid","valid");
+		Customer validCustomer = new Customer("valid","valid","valid","valid","valid");
 		
 		// Act
 		boolean actualResult = sut.isCustomerValid(validCustomer);
@@ -71,7 +71,7 @@ public class CustomerServiceTestSuite {
 		when(mockCustomerDAO.create(validCustomer)).thenReturn(validCustomer);
 		
 		// Act
-		Customer actualResult = sut.registerNewScientist(validScientist);
+		Customer actualResult = sut.registerNewCustomer(validCustomer);
 		
 		// Assert
 		Assert.assertNotNull(actualResult);
